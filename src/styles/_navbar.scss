@@ -1,0 +1,12 @@
+.navbar {
+  box-shadow: 1px 2px 1px 1px #00000036;
+
+  a {
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.9) !important;
+    text-decoration: none;
+  }
+  a:hover {
+    color: tomato !important;
+  }
+}
