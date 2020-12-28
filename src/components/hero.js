@@ -27,7 +27,7 @@ const Hero = () => {
       <Col xl="6" md="10">
           <Image fixed={fixed} className="mb-5"/>
           <h1>Michael Carrier</h1>
-          <h4>Software Engineer and full-stack web developer.  Passionate about building a top notch application from start to finish and all things space.</h4>
+          <h4>Software Engineer and full-stack web developer in Utah.  Passionate about building a top notch application from start to finish and all things space.</h4>
       </Col>
     </Row>
     </>
