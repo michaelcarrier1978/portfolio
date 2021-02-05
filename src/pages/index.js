@@ -6,12 +6,14 @@ import Jobs from "../components/jobs"
 import Projects from "../components/projects"
 import Skills from "../components/Skills"
 import Contact from "../components/contact"
+import Hero from '../components/hero'
 
 const IndexPage = () => (
   <>
   <Container fluid>
     <Layout pageInfo={{ pageName: "index" }}>
       <SEO title="Home" keywords={[`gatsby`, `Michael Carrier`, `Michael Carrier portfolio`, `Contact Michael Carrier`]} />
+      <Hero />
         <Row id="skills" className="justify-content-center">
           <Col sm="12" className="pt-3">
           <h2>Skills</h2>

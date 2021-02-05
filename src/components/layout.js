@@ -7,7 +7,6 @@
 
 import React from "react"
 import Navbar from "./navBar"
-import Hero from "./hero"
 import Footer from "./footer"
 
 
@@ -15,7 +14,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Hero />
         <main>{children}</main>
       <Footer />
     </>

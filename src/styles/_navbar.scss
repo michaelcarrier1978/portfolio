@@ -5,6 +5,13 @@
     padding: 8px;
     color: rgba(0, 0, 0, 0.9) !important;
     text-decoration: none;
+    span {
+      display: inline-block;
+      color: rgba(0, 0, 0, 0.9) !important;
+    }
+  }
+  a:hover span {
+    color: tomato !important;
   }
   a:hover {
     color: tomato !important;
