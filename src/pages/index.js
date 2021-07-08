@@ -20,7 +20,7 @@ const IndexPage = () => (
         </Col>
           <Skills/>
         </Row>
-        <Row id="experience" className="justify-content-center">
+        <Row id="experience" className="justify-content-center mb-3">
           <Col sm={12} className="pt-3">
             <h2>Experience</h2>
         </Col>

@@ -60,7 +60,7 @@ const Projects = () => {
                             {item.url ? <Link to={item.url}>View project</Link> : ''}
                         </Col>
                         <Col sm={6}>
-                            <Image fluid={item.image.childImageSharp.fluid} />
+                            {item.image ? <Image fluid={item.image.childImageSharp.fluid} /> : '' }
                         </Col>
                         </Row>
                     </Col>

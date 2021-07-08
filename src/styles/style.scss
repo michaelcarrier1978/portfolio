@@ -4,8 +4,16 @@
 @import "layout";
 @import "navbar";
 
+.social-icon {
+  height: 60px;
+  min-width: 60px;
+}
+
 #experience {
   .nav-pills {
+    .nav-item {
+      border-bottom: 1px solid rgb(136, 136, 136);
+    }
     .nav-link {
       font-size: 20px;
       color: #fff;
@@ -65,8 +73,8 @@
     border-bottom: 1px solid;
     color: white;
   }
-  .project2 {
-    border: 0;
+  .project-wrapper:last-child {
+    border: none;
   }
 }
 

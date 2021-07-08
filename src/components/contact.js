@@ -1,5 +1,8 @@
 import React from 'react'
 import { Form, Button } from "react-bootstrap"
+import LinkedinImg from '../images/linkedin.png'
+import GithubImg from '../images/github.png'
+import { Link } from "gatsby"
 
 const contact = () => {
     return (
@@ -18,6 +21,16 @@ const contact = () => {
                     Send
                 </Button>
             </Form>
+            <Col md="12">
+            <Row className="justify-content-center">
+                  <Col>
+                      <Link to="https://www.linkedin.com/in/michael-carrier-2a472352/"><img src={LinkedinImg} className="social-icon float-right"/></Link>
+                  </Col>
+                  <Col>
+                      <Link to="https://github.com/michaelcarrier1978"><img src={GithubImg} className="social-icon"/></Link>
+                  </Col>
+              </Row>
+          </Col>
         </>
     )
 }
