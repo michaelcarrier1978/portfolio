@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Button } from "react-bootstrap"
+import { Form, Button, Col, Row } from "react-bootstrap"
 import LinkedinImg from '../images/linkedin.png'
 import GithubImg from '../images/github.png'
 import { Link } from "gatsby"
